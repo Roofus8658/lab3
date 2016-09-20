@@ -3,11 +3,20 @@ class Card
 {
     public function __construct($v, $s)
     {
-        $this->value = $v;
+        $this->value = ($v + 1);
         $this->suit = $s;
     }
     function test() {
         echo "$this->value of $this->suit <br>";
+    }
+    function getSuit() {
+        return $this->suit;
+    }
+    function getValue() {
+        return $this->value;
+    }
+    function showCard() {
+        echo "<img src=\"img/cards/$this->suit/$this->value.png\"><br>";
     }
 }
 
@@ -23,7 +32,7 @@ for($i = 0; $i < 4; $i++) {
 
 shuffle($card);
 for($i = 0; $i < 52; $i++) {
-    $card[$i] -> test();
+    $card[$i] -> showCard();
 }
 
 
