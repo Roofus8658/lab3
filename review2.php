@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 function displayRandomCard() {
@@ -32,5 +33,21 @@ function displayRandomCard() {
         
         
        
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Silverjack!</title>
+    </head>
+    <body>
+    <?php
+    $card=rand(1,13);
+    $s = rand(0,3);
+    $suits=array("clubs", "diamonds", "hearts", "spades");
+    $deck = array();
+    echo "<img src = \"img/cards/clubs/1.png\">";
+    ?>
+    
+>>>>>>> 528db370842b17e86b28fae18bbbc796a7e8a860
     </body>
 </html>
