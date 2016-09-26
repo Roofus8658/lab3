@@ -1,0 +1,29 @@
+#people{
+    
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+    
+}
+
+td{
+    padding: 10px;
+}
+
+#wrapper{
+    width: 900px;
+    margin: 0 auto;
+    border:ridge 4px;
+}
+
+#winner{
+    
+    color:green;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+h1{
+    text-align:center;
+}
