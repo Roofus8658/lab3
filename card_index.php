@@ -84,7 +84,7 @@ shuffle($deck);
 		
 		<hr> 
     <footer>
-    &copy; Ulysses 2016 <br/>
+    &copy; Ulysses Vega, Anna Pomelov, Edwin Yantis (2016) <br/>
     <!-- Below we have an absolute path, but ideally we shouldn't use them since we don't have control of the files-->
     Disclaimer: The information in this page might not be accurate. For academic purposes only.
     
