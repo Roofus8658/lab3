@@ -1,5 +1,5 @@
 <style>
-	@import url(css/styles.css); 
+	@import url(css/lab3.css); 
 </style>
 
 <?php
@@ -80,6 +80,18 @@ shuffle($deck);
 			echo "</table>";
 			?>
 		</div>
+		
+		
+		<hr> 
+    <footer>
+    &copy; Ulysses 2016 <br/>
+    <!-- Below we have an absolute path, but ideally we shouldn't use them since we don't have control of the files-->
+    Disclaimer: The information in this page might not be accurate. For academic purposes only.
+    
+    
+    
+    <br> <img src= "../../Otter logo/csumb-logo.png" alt = "Otter Logo">
+    </footer>
 	</body>
 </html>
 
